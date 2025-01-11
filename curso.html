@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Estilização/personalizacao.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="Scripts/manipulacao.js"></script>
+  <script src="Scripts/aviso.js"></script>
+</head>
+<body>
+
+    <!--NavBar-->
+    <header class=" mb-2 px-4 shadow bg-blue-800">
+        <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+          <a class="flex items-center text-2xl font-black" href="/">
+            <span class="mr-2 text-3xl text-blue-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+            </span>
+            <span class="bebas text-white">Futuro Brilhante</span>
+          </a>
+          <input class="peer hidden" type="checkbox" id="navbar-open" />
+          <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+          </label>
+          <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+            <ul class="bebas_nav flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+              <li class=""><a class="text-white hover:text-amber-300" href="conteudo_principal.html">Pratica</a></li>
+              <li class=""><a class="text-white hover:text-amber-300" href="curso.html">Cursos</a></li>
+              <li class=""><a class="text-white hover:text-amber-300" href="sobre.html">Sobre</a></li>
+              <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 border-white px-6 py-2 font-medium text-white hover:bg-white-600 hover:text-amber-300" href="#">Github</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    
+    <!--Cursos-->
+    <section>
+
+        <h2 class="bebas text-center text-6xl">Matemática Básica</h2>
+        <br><br>
+        <div class="flex justify-around flex-wrap">
+
+            <!---Box Curso 1-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md"> Ministério da Educação</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://cursosonlines.org/escola-virtual-gov/?utm_source=google&utm_campaign=escola-virtual-gov&gad_source=1&gclid=Cj0KCQiAyoi8BhDvARIsAO_CDsAj05gtux9ZAk9ZTToxzU0NyZEXaWWENDrO-2ZKhWS3D4UYDhIHTlAaAmJoEALw_wcB" target="_blank">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+              <!---Box curso 2-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Aprenda Qualquer Coisa</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://www.aprendaqualquercoisa.com.br/">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+
+          <!---Box curso 3-->
+          <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Udemy</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://www.udemy.com/">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+          
+
+
+
+            </div>
+            
+                </div>
+
+                <br> <br>
+    </section>
+
+    <span class="flex h-[41vh]"></span>
+
+
+
+
+
+    <section>
+
+        <h2 class="bebas text-center text-6xl">Matemática Intermediária</h2>
+        <br><br>
+        <div class="flex justify-around flex-wrap">
+
+            <!---Box curso 4-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Desmoq</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://desmoq.com/">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+              <!---Box 5-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">FGV</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://educacao-executiva.fgv.br/cursos/gratuitos">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+
+          <!---Box Adição-->
+          <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Khan Academy</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://pt.khanacademy.org/">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+          
+
+    </section>
+
+
+
+
+    <span class="flex h-[41vh]"></span>
+
+
+
+    <section >
+
+        <h2 class="bebas text-center text-6xl">Matemática Avançada</h2>
+        <br><br>
+        <div class="flex justify-around flex-wrap">
+
+            <!---Box 6-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">APOLO</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://uspdigital.usp.br/apolo/apoExtensaoCurso?codmnu=1444">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+              <!---Box 7-->
+        <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Estudar Fora</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://www.estudarfora.org.br/">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+
+
+          <!---Box Adição-->
+          <div class="flex flex-col rounded-md w-[20%] h-[120%] bg-white gap-y-7 ">
+            
+            <span class="bebas text-center text-white bg-blue-800 rounded-md">Standford</span>
+
+
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
+
+
+            <!--Botão card-->
+            <button class="bg-blue-800 text-white rounded-b-lg ">
+                <p class="hover:text-amber-400 bebas"><a href="https://online.stanford.edu/free-courses?utm_source=google&utm_medium=cpc&utm_campaign=19634353329&utm_term=&utm_content=&campaign=19634353329&revenue={revenue}&gad_source=1&gclid=Cj0KCQiAyoi8BhDvARIsAO_CDsDbvivvvTuGEqyAxOX14knk2-bv_dyQIYGyuOdlfw9ReojLflPUhJgaAngsEALw_wcB">Acessar</a></p>
+            </button>
+
+
+
+        </div>
+    </section>
+
+    <span class="flex h-10"></span>
+
+    
+</body>
+</html>

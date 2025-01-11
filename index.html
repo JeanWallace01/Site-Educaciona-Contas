@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Estilização/personalizacao.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <script>
+    // Função para verificar o breakpoint e redirecionar
+    function checkBreakpoint() {
+      const width = window.innerWidth;
+      if (width >= 769 && width <= 992) {
+        window.location.href = "https://www.google.com/maps/@-22.8363444,-43.3004858,15z?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo URL desejado
+      } if (width == 773 && width <= 991 ) {
+        window.location.href = "https://www.google.com/maps/@-22.8363444,-43.3004858,15z?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo URL desejado
+      } 
+    }
+
+    // Adicionar evento de redirecionamento ao carregar e redimensionar
+    document.addEventListener("DOMContentLoaded", checkBreakpoint); // Quando a página carrega
+    window.addEventListener("resize", checkBreakpoint); // Quando a janela é redimensionada
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="Scripts/redirecionamentos.js"></script>
+</head>
+<body>
+
+    
+
+  <!--Introduçãp-->  
+  <section class="flex justify-between items-center h-screen"> <!-- Centralizando a section -->
+
+    <div class="flex flex-col bg-neutral-100 items-center justify-center w-[70%] h-[100%] p-2 text-center gap-y-14">     
+        
+        <h2 class="bebas mt-4">Matemática Divertida: Aprenda Brincando!</h2>
+
+        <!-- Sobre -->
+        <p class="bg-blue-800 p-3 chakra-font rounded-md text-white">
+            No nosso site, você pode aprender matemática de forma divertida e interativa! Pratique adição, subtração, multiplicação e divisão com jogos e atividades para todos os níveis. A matemática se torna mais fácil e empolgante enquanto você se desafia e se diverte! Vamos juntos aprimorar suas habilidades e tornar o aprendizado um jogo divertido!
+        </p>
+
+
+        <!--Anúncio--> 
+        <div class="flex justify-between items-center text-center chakra-font gap-x-2">
+
+            <!--Box 1 -->
+            <div class="bg-gray-300 p-4 w-[30%] h-[29vh] rounded-md ">
+                <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <br>
+                <p>Plataforma prática e divertida: Transforme seu aprendizado em matemática. Aprenda conceitos complexos</p>
+            </div>
+
+            <!--Box 2 -->
+            <div class="bg-gray-300 p-4 w-[30%] h-[29vh] rounded-md ">
+                <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <br>
+                <p>Aprenda Matemática de Forma Inovadora e Acessível, com métodos modernos que tornam o aprendizado mais fácil</p>
+            </div>
+
+
+            <!--Box 3 -->
+            <div class="bg-gray-300 p-4 w-[30%] h-[29vh] rounded-md ">
+                <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <br>
+                <p>Pratique matemática de forma simples e divertida, com nossa plataforma inovadora e transformando o aprendizado diferente</p>
+            </div>
+                
+        </div>    
+
+
+
+        <!-- Botão -->
+        <span" class="hover:text-amber-300 hover:bg-blue-900 rounded-md bg-blue-800 text-white p-4  mb-6">
+            <p class="bebas"><a href="sobre.html">Quero Aprender !! </a></p>       
+        </span>
+
+       
+
+    </div>
+
+    
+
+    <!--Foto-->
+    <div class="foto_bg bg-black w-[50%] h-[100%] text-center p-2">
+
+    </div>
+</section>
+
+
+    
+  
+
+</body>
+</html>

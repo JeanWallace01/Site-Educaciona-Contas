@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Estilização/personalizacao.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="Scripts/redirecionamentos.js"></script>
+</head>
+<body class="video_teste">
+
+    <!--NavBar-->
+    <header class=" mb-2 px-4 shadow bg-blue-800">
+      <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+        <a class="flex items-center text-2xl font-black" href="/">
+          <span class="mr-2 text-3xl text-blue-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+          </span>
+          <span class="bebas text-white">Futuro Brilhante</span>
+        </a>
+        <input class="peer hidden" type="checkbox" id="navbar-open" />
+        <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+        </label>
+        <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+          <ul class="bebas_nav flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+            <li class=""><a class="text-white hover:text-amber-300" href="conteudo_principal.html">Pratica</a></li>
+            <li class=""><a class="text-white hover:text-amber-300" href="curso.html">Cursos</a></li>
+            <li class=""><a class="text-white hover:text-amber-300" href="sobre.html">Sobre</a></li>
+            <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 border-white px-6 py-2 font-medium text-white hover:bg-white-600 hover:text-amber-300" href="#">Github</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Seja bem vindo-->
+    <section class="flex  justify-between h-[60vh] ">
+        <div class="w-[60%] p-2 justify-items-center content-center mb-6">
+            <h2 class="bebas">Boas vindas a Nossa Plataforma</h2>
+            <p class="bg-blue-800 p-3 chakra-font rounded-md text-white text-center">
+              Estamos muito felizes em ter vocês aqui. Nossa missão é tornar a matemática divertida, emocionante e fácil de entender. Nesta plataforma, vocês encontrarão uma variedade de atividades interativas e jogos que ajudarão a praticar e aprimorar suas habilidades matemáticas de uma maneira divertida e envolvente. <br><br>
+              
+              Preparem-se para explorar o mundo dos números, resolver desafios e descobrir como a matemática pode ser fascinante. Esperamos que cada sessão aqui seja uma aventura de aprendizado e uma oportunidade para desenvolver o raciocínio lógico e a criatividade. <br><br>
+              
+              Divirtam-se aprendendo e não esqueçam: a matemática está em todos os lugares e sempre tem algo novo para nos ensinar!</p>
+        </div>
+
+        <div class=" w-[40%] p-2 justify-items-center content-center">
+            <img id="foto_boas_vindas" src="Imagens/pexels-marywhitneyph-9288447.jpg" alt="">
+        </div>
+    </section>
+    
+    <span class="flex h-48"></span> 
+
+
+    <!--Sobre o site-->
+    <section class="flex  justify-between h-[60vh]">
+        <div class="w-[40%] p-2 justify-items-center content-center mb-6">
+            <img id="multiplataforma" src="Imagens/multi_pq.jpg" alt="">
+        </div>
+
+        <div class=" w-[60%] p-2 justify-items-center content-center">
+            <h2 class="bebas">Multiplataforma</h2>
+            <p class="bg-blue-800 p-3 chakra-font rounded-md text-white text-center"> 
+              Nosso site é multiplataforma, permitindo o acesso a partir de qualquer dispositivo, como computador, tablet ou celular, a qualquer momento e lugar. Com uma interface amigável e muitas atividades interativas, você pode praticar suas habilidades matemáticas de forma dinâmica e envolvente. Oferecemos suporte contínuo, dicas e tutoriais para resolver dúvidas, além de desafios diários e jogos matemáticos para tornar o aprendizado divertido. <br> <br>
+
+              Divirtam-se aprendendo e não esqueçam: a matemática está em todos os lugares e sempre tem algo novo para nos ensinar!</p>
+        </div>
+    </section>
+
+    <!--ALtura sessão-->
+    <span class="flex h-60"></span>
+
+
+    <br>
+
+    <!--Sessão vantagem--->
+    <h2 class="flex  justify-center content-start text-center bebas">Vantagens</h2>
+    <section class="flex justify-around mb-10 p-2 h-[50vh]" >
+
+        <div class=" justify-items-center content-start  w-[30%] bg-blue-800 rounded-md p-4" >
+               <h3 class="bebas text-white">Acesso Imediato e Flexível</h3>
+               <p class="rounded-md chakra-font h-[28vh] mt-10 text-center bg-white p-5">
+                Com Acesso Imediato e Flexível, você pode começar a aprender matemática de forma prática e interativa, sempre que desejar. Com uma interface amigável e muitas atividades interativas, você pode praticar suas habilidades matemáticas de forma dinâmica e envolvente.</p>
+        </div>
+
+
+        <div class=" justify-items-center content-start  w-[30%] bg-blue-800 rounded-md p-4" >
+            <h3 class="bebas text-white">Cursos Gratuitos de Matemática</h3>
+            <p class="rounded-md mt-10 h-[28vh] chakra-font text-center bg-white p-5">
+              
+              Será disponibilizada uma lista de cursos gratuitos de matemática, com conteúdos de todos os níveis, para você aprender de forma clara, divertida e no seu próprio ritmo. Aproveite para melhorar suas habilidades matemáticas sem custo algum!</p>
+        </div>
+    
+
+        <div class=" justify-items-center content-start  w-[30%] bg-blue-800 rounded-md p-4" >
+            <h3 class="bebas text-white">Usuabilidade</h3>
+            <p class="rounded-md mt-10 h-[28vh] chakra-font text-center bg-white p-5">
+              
+              O site foi desenvolvido para ser fácil de usar, com uma interface clara e navegação intuitiva, permitindo que você encontre e acesse os conteúdos rapidamente, sem complicação. Aprender matemática ficou mais simples e agradável. Todos os recursos foram pensados!</p>
+        </div>
+    </section>
+
+    <!--ALtura sessão  /  Botão acessar-->
+    <span class="flex justify-center h-64">
+            <span" id="conteudo_contas" class="hover:text-amber-300 bebas text-white p-3 rounded-md h-[10vh] bg-blue-800">
+              <p><a href="conteudo_principal.html">Acessar Conteúdo</a></p> 
+        </span>
+    </span> 
+
+</body>
+</html>

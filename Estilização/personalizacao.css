@@ -1,0 +1,96 @@
+*{
+  body {
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(184,170,170,1) 100%);
+  }
+
+}
+
+.hachi {
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*Foto Introdução*/
+  .foto_bg{
+    background: url(../Imagens/Foto_pequena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*Titulos*/
+  .bebas {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*Titulo do navegador*/
+  .bebas_nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+header div {
+  position: sticky;
+}
+
+
+  /*Foto boas vindas*/
+  #foto_boas_vindas{
+    border-radius: 20px;
+  }
+
+  /*Adaptadabilidade*/
+  #multiplataforma {
+    border-radius: 20px;
+    height: 58vh;
+  }
+
+
+  /*Fonte dos textos*/
+  .chakra-font {
+    font-family: "Chakra Petch", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/*Personalizando o Input placeholder*/
+  
+::placeholder {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+  
+
+
+/*Breakpoint AVISO*/
+
+ /* Médio - Smartphones grandes (Retrato e Paisagem) */
+ @media (min-width: 390px) and (max-width: 768px) {
+  
+
+  .ajuste {
+    top: 27%;
+    position: absolute;
+  }
+
+  
+  
+}
+
+/* Grande - Tablets */
+@media (min-width: 769px) and (max-width: 992px) {
+  body {
+    display: none;
+  }
+}
+

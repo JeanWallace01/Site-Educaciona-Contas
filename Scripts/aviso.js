@@ -1,0 +1,1 @@
+//alert('Os cursos de Matemática Básica, Intermediária e Avançada que estou utilizando pertencem às respectivas instituições e plataformas que os disponibilizaram, e todos os direitos são reservados a elas. Estou utilizando este material exclusivamente para fins de estudo e aprendizado pessoal.')

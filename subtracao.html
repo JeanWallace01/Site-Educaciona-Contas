@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Estilização/personalizacao.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="Scripts/manipulacao.js"></script>
+</head>
+<body>
+
+    <!--NavBar-->
+    <header class=" mb-2 px-4 shadow bg-blue-800">
+        <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+          <a class="flex items-center text-2xl font-black" href="/">
+            <span class="mr-2 text-3xl text-blue-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+            </span>
+            <span class="bebas text-white">Futuro Brilhante</span>
+          </a>
+          <input class="peer hidden" type="checkbox" id="navbar-open" />
+          <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+          </label>
+          <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+            <ul class="bebas_nav flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+              <li class=""><a class="text-white hover:text-amber-300" href="conteudo_principal.html">Pratica</a></li>
+              <li class=""><a class="text-white hover:text-amber-300" href="curso.html">Cursos</a></li>
+              <li class=""><a class="text-white hover:text-amber-300" href="sobre.html">Sobre</a></li>
+              <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 border-white px-6 py-2 font-medium text-white hover:bg-white-600 hover:text-amber-300" href="#">Github</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <!--Section Explicação--->
+    <section class="flex text-center justify-between items-center h-[65vh]">
+
+        <div class="h-[40vh] rounded-md w-[35%] m-3">
+            <img class="rounded-md" src="Imagens/Foto-subtracao.jpg" alt="">
+        </div>
+
+
+
+        <div class="flex flex-col h-[50vh] w-[50%] m-3">
+            
+            <span class="bebas">Subtração</span>
+            <br>
+            <span class="bg-blue-800 text-white text-center chakra-font rounded-md p-3">
+                Imagine que você tem 7 brinquedos espalhados pelo quarto. Sua mãe pediu que você guarde 3 deles. Quantos brinquedos ainda ficam no chão para brincar? Se você contar os brinquedos que sobraram, verá que ainda tem 4 brincando por aí!
+                    <br><br>
+                    Então, quando encontrar o símbolo -, lembre-se de que você está tirando algumas coisinhas e vendo quantas ficam depois. Fácil, né?
+                    <br><br>
+                    Agora me diz: quantas balas você teria se tivesse 9 balas e desse 4 para um amigo? Vamos lá, faça a contagem comigo!
+                    <br><br>
+                    Vamos praticar? Na próxima seção do site, é possível realizar suas contas e se divertir subtraindo!
+            </span>
+        </div>    
+    </section>
+
+    <!--Espaçamento entre linhas-->
+    <span class="flex h-60"></span>
+
+    <!--Title pratica--->
+    <h3 class="text-center bebas text-6xl" >Pratica</h3>
+
+    <!--Informações adicionais Curso-->
+    <section class="flex flex-wrap justify-around text-center items-center h-[65vh]">
+        
+        
+
+        <!--Input 1-->
+        <div class="flex items-center justify-center  h-80 w-[10%]">
+            <input id="numero_1"  class="text-white bebas_nav bg-blue-800 text-center rounded-md h-[30vh]" type="number" required placeholder="Digite um número">
+        </div>
+
+
+        <!--SVG Sinal-->
+        <div class="flex items-center justify-center  h-80 w-[10%]">
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+            </span>
+        </div>
+
+        <!--Input 2-->
+        <div class="flex items-center justify-center  h-80 w-[10%]">
+            <input id="numero_2" class="bg-blue-800 bebas_nav text-center rounded-md h-[30vh]" type="number" required placeholder="Digite um número">
+        </div>
+
+
+        <!--SVG Igual-->
+        <div class="flex items-center justify-center  h-80 w-[10%]">
+            <span class="mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-equal"><line x1="5" x2="19" y1="9" y2="9"/><line x1="5" x2="19" y1="15" y2="15"/></svg>
+            </span>
+        </div>
+
+
+        <!--Resultado--->
+        <div class="flex items-center justify-center  h-80 w-[10%]">
+            <input id="resultado" class="bg-blue-800  bebas_nav text-center rounded-md h-[30vh]" type="text" >
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+            <button onclick="subtracao()" id="calcular" class="hover:bg-green-800 bebas text-white bg-blue-800 p-3 rounded-md">
+                calcular
+            </button>
+    
+            <button onclick="limpar()" id="limpar" class="hover:bg-red-800 bebas text-white bg-blue-800 p-3 rounded-md">
+                Limpar
+            </button>
+        </div>
+
+        
+    </section>
+
+     <!--Espaçamento entre linhas-->
+     <span class="flex h-64"></span>
+
+    <!--Prática adição--->
+    <section class="flex justify-around bg-blue-800 items-center h-[65vh]">
+
+        <div class="flex flex-col justify-center text-center items-center rounded-md bg-gray-200 h-[62vh] w-[15%] gap-y-12 ">
+
+            <div class="bebas">
+                Cursos
+            </div>
+
+            <ul class=" chakra-font">
+                
+                <li class="mb-16">Matemática básica</li>
+                
+                <li class="mb-16">Matemática Intermediária</li>
+                
+                <li class="mb-16">Matemática Avançada</li>
+                
+            
+            </ul>
+
+        </div>
+
+        
+        <div class="flex flex-col justify-center text-center items-center rounded-md bg-gray-200 h-[62vh] w-[15%] gap-y-12 ">
+
+            <div class="bebas">
+                Novidades
+            </div>
+
+            <ul class="chakra-font">
+                
+                <li class="mb-16">Versão Mobile</li>
+                
+                <li class="mb-16">Tecnologia nova</li>
+                
+                <li class="mb-16">Atualizações</li>
+                
+            
+            </ul>
+
+        </div>
+
+
+        <div class="flex flex-col justify-center text-center items-center rounded-md bg-gray-200 h-[62vh] w-[15%] gap-y-12 ">
+
+            <div class="bebas">
+                Segurança
+            </div>
+
+            <ul class="chakra-font">
+                <li class="mb-16">Confidencialidade</li>
+                
+                <li class="mb-16">Politica de Privacidade</li>
+                
+                <li class="mb-16">Termo de Uso</li>
+                
+                
+            </ul>
+
+        </div>
+
+
+        
+
+
+    </section>
+
+</body>
+</html>
