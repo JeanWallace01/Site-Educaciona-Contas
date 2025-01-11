@@ -13,6 +13,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Estilização/personalizacao.css">
+  <script>
+    // Função para verificar o breakpoint e redirecionar
+    function checkBreakpoint() {
+      const width = window.innerWidth;
+      if (width >= 769 && width <= 992) {
+        window.location.href = "https://www.google.com/maps/@-22.8363444,-43.3004858,15z?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo URL desejado
+      } if (width == 773 && width <= 991 ) {
+        window.location.href = "https://www.google.com/maps/@-22.8363444,-43.3004858,15z?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"; // Substitua pelo URL desejado
+      } 
+    }
+
+    // Adicionar evento de redirecionamento ao carregar e redimensionar
+    document.addEventListener("DOMContentLoaded", checkBreakpoint); // Quando a página carrega
+    window.addEventListener("resize", checkBreakpoint); // Quando a janela é redimensionada
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="Scripts/manipulacao.js"></script>
 </head>
